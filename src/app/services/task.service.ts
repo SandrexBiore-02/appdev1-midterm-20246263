@@ -7,39 +7,39 @@ export class TaskService {
   private tasks: Task[] = [
     {
       id: 1,
-      title: 'Design UI Mockups',
+      title: 'Design UI',
       description: 'Create wireframes for TaskFlow using Figma.',
-      dueDate: '2025-02-10',
+      dueDate: '2026-02-10',
       status: 'Completed',
       priority: 'High',
-      createdAt: '2025-01-20'
+      createdAt: '2026-01-20'
     },
     {
       id: 2,
       title: 'Set Up Angular Project',
       description: 'Initialize the Angular project with routing and standalone components.',
-      dueDate: '2025-02-15',
+      dueDate: '2026-02-15',
       status: 'In Progress',
       priority: 'High',
-      createdAt: '2025-01-22'
+      createdAt: '2026-01-22'
     },
     {
       id: 3,
       title: 'Write Unit Tests',
       description: 'Write unit tests for all service methods using Jasmine and Karma.',
-      dueDate: '2025-03-01',
+      dueDate: '2026-03-01',
       status: 'Pending',
       priority: 'Medium',
-      createdAt: '2025-01-25'
+      createdAt: '2026-01-25'
     },
     {
       id: 4,
       title: 'Deploy to Netlify',
       description: 'Build the production bundle and deploy to Netlify.',
-      dueDate: '2025-03-10',
+      dueDate: '2026-03-10',
       status: 'Pending',
       priority: 'Low',
-      createdAt: '2025-01-28'
+      createdAt: '2026-01-28'
     }
   ];
 
