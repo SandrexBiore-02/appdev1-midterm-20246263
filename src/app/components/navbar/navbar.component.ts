@@ -11,7 +11,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
         <a class="navbar-brand fw-bold" routerLink="/tasks">&#10004; TaskFlow</a>
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -19,11 +20,15 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
             <li class="nav-item">
               <a class="nav-link" routerLink="/tasks"
                  routerLinkActive="active"
-                 [routerLinkActiveOptions]="{ exact: true }">All Tasks</a>
+                 [routerLinkActiveOptions]="{ exact: true }">
+                All Tasks
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" routerLink="/tasks/new"
-                 routerLinkActive="active">+ Add Task</a>
+                 routerLinkActive="active">
+                + Add Task
+              </a>
             </li>
           </ul>
         </div>
